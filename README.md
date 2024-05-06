@@ -1,7 +1,7 @@
 # principles-of-digital-fabrication-2024-Group-32
 The repository of our project on the Principles of Digital Fabrication course spring 2024 of Group 32
 
-This is the repository for the documentation of our course project of Group 32 consisting of me, Hanna Risteli, Siiri Tuomikoski, Laura Sarajärvi and Tatu Tallavaara.
+This is the repository for the documentation of our course project of Group 32 consisting of Hanna Risteli, Siiri Tuomikoski, Laura Sarajärvi and Tatu Tallavaara.
 
 This repository contains: 
 1) the code for our project (TARKEMMIN<<)
