@@ -11,5 +11,5 @@ This repository contains:
    finalboksi6_5.svg
    koskettimet_akryyli_2024touko3.svg
    nappaintuki_boksiin_touko3.svg
-5) the svg files of the previous plywood box prototype from friday 19.4
+5) the svg file of the previous plywood box prototype from friday 19.4
 6) the slides for our project presentation (file name Presentation_Group32.odp) 
