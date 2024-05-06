@@ -6,4 +6,5 @@ This is the repository for the documentation of our course project of Group 32 c
 This repository contains: 
 1) the code for our project (TARKEMMIN<<)
 2) the electronic circuit diagrams (X diagrams<) 
-3) the svg files for our final, full sized version of the 2D laser cutting design 
+3) the svg files for our final, full sized version of the 2D laser cutting design
+4) the slides for our project presentation 
