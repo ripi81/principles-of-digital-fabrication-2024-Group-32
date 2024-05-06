@@ -9,5 +9,6 @@ This repository contains:
 3) the svg files for our final, full sized version of the 2D laser cutting design
    -
    - daa
-   - daa 
+   - daa
+4) the svg files of the previous box prototype from friday 19.4
 5) the slides for our project presentation (file name Presentation_Group32.odp) 
