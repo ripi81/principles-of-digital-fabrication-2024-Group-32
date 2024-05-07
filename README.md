@@ -3,17 +3,17 @@ The repository of our project on the Principles of Digital Fabrication course sp
 
 This is the repository for the documentation of our course project of Group 32 consisting of Hanna Risteli, Siiri Tuomikoski, Laura Sarajärvi and Tatu Tallavaara.
 
-This repository contains: 
-1) the code for our project
-2) the electronic circuit diagrams 
-3) the svg files for our final, full sized version of the 2D laser cutting design which we built our prototype with:
+**This repository contains:**
+1) The code for our project
+2) The electronic circuit diagrams 
+3) The .svg files for our final, full sized version of the 2D laser cutting design which we built our prototype with:
    finaal6_5.svg
    finalboksi6_5.svg
    koskettimet_akryyli_2024touko3.svg
    nappaintuki_boksiin_touko3.svg
-5) the svg file of the previous plywood box prototype from friday 19.4
-6) the slides for our project presentation (file name Presentation_Group32.odp) 
+5) The .svg file of the previous plywood box prototype from Friday, April 19th
+6) The slides for our project presentation (file name Presentation_Group32.odp) 
 
-Keyboard features:
+**Keyboard features:**
 - 8 notes which play the C major scale
 - 4 tone polyphony with one basic magnetic buzzer
