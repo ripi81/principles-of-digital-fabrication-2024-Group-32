@@ -13,3 +13,7 @@ This repository contains:
    nappaintuki_boksiin_touko3.svg
 5) the svg file of the previous plywood box prototype from friday 19.4
 6) the slides for our project presentation (file name Presentation_Group32.odp) 
+
+Keyboard features:
+- 8 notes which play the C major scale
+- 4 tone polyphony with one basic magnetic buzzer
