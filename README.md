@@ -15,15 +15,11 @@ This is the repository for the documentation of our course project of Group 32 c
 6) The slides for our project presentation (file name Presentation_Group32.odp) 
 
 **Keyboard features:**
-- 8 notes which play the C major scale
+- 8 notes which make the C major scale
 - 4 tone polyphony with one basic magnetic buzzer
 
 **Notes** (by Siiri)
 
 KeyboardInstrument1.3.ino is the code that is running on the Arduino. 1.4 is a version that addresses the problems with the 1.3 code, but unfortunately I couldn't finish the code in time. I still wanted to include it in this repo, as it was very close to functioning as intended. 
 
-testichoco.ino is a demo song (Chocobo theme from the popular video game series Final Fantasy) that plays a 3-tone polyphonic melody correctly on the Arduino. Initially we wanted to include this "demo song" functionality with multiple different demo songs in our project but unfortunately we ran out of time. The code works just as intended and I have included an audio recording of it (Record-009.wav).  
-
-A few things that I noticed just at the last minute:
-- Actually the playTone function on version 1.4 has some issues (despite what the comments on the code say), such at pressing the keyboard keys "backwareds" causes some issues.
-- Important functionality that I had forgotten to add was that the program should check whether a specific note is already playing. Now it can play the same note on multiple different buzzers, which causes bugs.
+testichocobo.ino is a demo song (Chocobo theme from the popular video game series Final Fantasy) that plays a 3-tone polyphonic melody correctly on the Arduino. Initially we wanted to include this "demo song" functionality with multiple different demo songs in our project but unfortunately we ran out of time. The code works just as intended and I have included an audio recording of it (Record-009.wav).  
