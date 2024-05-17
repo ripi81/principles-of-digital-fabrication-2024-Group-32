@@ -9,11 +9,12 @@ Capable of 4-tone polyphony on one magnetic buzzer.
 */
 
 /*
-As of now, the code seems to manage playing the tones mostly fine. 
-However, turning off the tones isn't functioning as intended.
-That is pretty much the last step, and also the hardest.
-Limits of the MusicWithoutDelay library is showing, as it was mostly intended
-for playing predefined melodies.
+Current issues:
+  - The code is supposed to always replace the note that has been playing the longest when more than 4 keys are pressed. Currently it just replaces the newest note.
+  - Stopping the note from playing when a key is released is not working at all. Most likely the hardest part to code.
+  - LED logic is to be done.
+  - No function to check whether a specific note is already playing. This leads to the same note playing on multiple different buzzers, which consequently leads to bugs.
+  - Limits of the MusicWithoutDelay library is showing, as it was mostly intended for playing predefined melodies.
 */
 
 // LEDs
@@ -76,7 +77,7 @@ void buzzerON(int note) {
 
     for (int i = 0; i < 4; i++) {
         if (usedBuzzers[i] == -1) {
-        usedBuzzers[i] = availableBuzzer;
+          usedBuzzers[i] = availableBuzzer;
         }
     }
 }
@@ -101,6 +102,7 @@ void buzzerOFF(int pin, int notes) {
     }
 }
 
+// Plays the correct note on a specified buzzer.
 
 void playTone() {
     int j = 0;
@@ -119,6 +121,8 @@ void playTone() {
     }
 }
 
+
+// Stops a note from playing when a key is released.
 void stopTone() {
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 8; j++) {
@@ -126,27 +130,6 @@ void stopTone() {
         }
     }
 }
-
-/*
-void playTone () {
-    int i = 0;
-    while (i <= 6) {
-        for (int pin = 0; pin < 4; pin++) {
-            if (buttonPins[pin] >= voltage[0] && buttonPins[pin] <= voltage[1]) {
-                buzzerON(NOTES[i]);
-                buzzerOFF(pin, usedBuzzers[0]);
-            } else if (buttonPins[pin] >= voltage[1] && buttonPins[pin] <= voltage[2]) {
-                buzzerON(NOTES[i+1]);
-                buzzerOFF(pin, usedBuzzers[0]);
-            } else if (buttonPins[pin] >= voltage[2] && buttonPins[pin] <= voltage[3]) {
-                buzzerON(NOTES[i]);
-                buzzerON(NOTES[i+1]);
-            }
-            i += 2;
-        }
-    }
-}
-*/
 
 void setup() {
     /*
@@ -178,7 +161,7 @@ void loop() {
         buttonPins[3] = analogRead(BUTTONS[3]);
 
         for (int i = 0; i < 4; i++) {
-        SOUNDS[i].update();
+          SOUNDS[i].update();
         }
 
         playTone();
