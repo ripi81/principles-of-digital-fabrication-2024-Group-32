@@ -15,7 +15,7 @@ This is the repository for the documentation of our course project of Group 32 c
 6) The slides for our project presentation (file name Presentation_Group32.odp) 
 
 **Keyboard features:**
-- 8 notes which play the C major scale
+- 8 notes which make the C major scale
 - 4 tone polyphony with one basic magnetic buzzer
 
 **Notes** (by Siiri)
