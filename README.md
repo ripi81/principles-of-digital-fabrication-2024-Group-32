@@ -19,6 +19,7 @@ This is the repository for the documentation of our course project of Group 32 c
 - 4 tone polyphony with one basic magnetic buzzer
 
 **Notes** (by Siiri)
+
 KeyboardInstrument1.3.ino is the code that is running on the Arduino. 1.4 is a version that addresses the problems with the 1.3 code, but unfortunately I couldn't finish the code in time. I still wanted to include it in this repo, as it was very close to functioning as intended. 
 
 testichoco.ino is a demo song (Chocobo theme from the popular video game series Final Fantasy!) that plays a 3-tone polyphonic melody correctly on the Arduino. Initially we wanted to include this "demo song" functionality in our project but unfortunately we ran out of time. The code works just as intended and I have included an audio recording of it (Record-009.wav).  
